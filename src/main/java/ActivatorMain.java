@@ -1,14 +1,17 @@
 import Objects.ActivationRequest;
 import Objects.ActivationResponse;
 import com.google.gson.Gson;
-import sun.misc.IOUtils;
 
+import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import javax.swing.*;
 
 /**
  * User: cbates
